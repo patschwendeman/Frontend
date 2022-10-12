@@ -20,6 +20,7 @@ const DeckPage = ({ cards, enterQuest, enterAnswer, handleEnterQuest, handleEnte
                 handleEnterQuest= { handleEnterQuest }
                 handleEnterAnswer= { handleEnterAnswer }
                 handleCreateCard= { handleCreateCard }
+                handleShowAddCardPage= { handleShowAddCardPage }
             />
             {cards.map((element, index) => {
               return(

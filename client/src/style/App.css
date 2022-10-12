@@ -60,23 +60,22 @@ Button {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  background-color: rgb(14, 14, 53);
+  background-color: rgb(14, 14, 53, 0.9);
   z-index: 100; 
   border-bottom: solid white 2px;
 }
 
 #add{
+  
   position: fixed;
   height: 50px;
   width: 50px;
-  bottom: 50px;
+  bottom: 30px;
   right: 50px;
   z-index: 999999;
   background-color: rgb(14, 14, 53);
   border-radius: 100px;
   padding: 10px;
-  border: none;
-  
 }
 
 #add img {

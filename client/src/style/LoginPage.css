@@ -1,0 +1,58 @@
+.Background {
+    background-color: rgb(14, 14, 53);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.LoginSection {
+    position: fixed;
+    width: 50%;
+    height: 50%;
+    
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    overflow: hidden;
+}
+
+.HeaderSection {
+    display: flex;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(194, 82, 82);
+
+}
+
+.HeaderSection h2 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+form {
+    width: 100%;
+    background-color: white;
+    height: 80%;
+    color: black;
+
+}
+
+
+
+form input , button {
+    width: 70%;
+    height: 15%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}

@@ -1,7 +1,7 @@
 import { ChangeEventHandler } from "react";
 import "../style/AddCardPage.css";
 
-const AddCardPage = ({ showAddCardPage, enterQuest, enterAnswer, handleEnterQuest, handleEnterAnswer, handleCreateCard }) => {
+const AddCardPage = ({ showAddCardPage, enterQuest, enterAnswer, handleEnterQuest, handleEnterAnswer, handleCreateCard, handleShowAddCardPage }) => {
    if(showAddCardPage === true){
     return(
         <div className="AddCardPage">
@@ -27,7 +27,7 @@ const AddCardPage = ({ showAddCardPage, enterQuest, enterAnswer, handleEnterQues
                 
                 <div className="ButtonSection">
                     <button onClick={ () => handleCreateCard()}>ADD</button>  
-                    <button>Cancel</button> 
+                    <button onClick={ () => handleShowAddCardPage()}>Cancel</button> 
                 </div>
                      
             </div>   
